@@ -5,46 +5,40 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projeto</title>
+  <title>Buscar Cliente</title>
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
   <!--Menu Lateral-->
   <header>
-    <div>
-      <section id="sidebar">
+    <div class="wrapper">
+      <nav id="sidebar">
         <div class="sidebar-header">
           <h4>SISTEMA DE CADASTRO</h4>
         </div>
         <ul class="list-unstyled components">
-          <li class="active">
+          <li>
             <a href="./index.html">Emitir Relatórios</a>
           </li>
-          <li>
+          <li class="active">
             <a href="./BuscarCliente1.html">Pesquisar Cliente</a>
           </li>
         </ul>
-      </section>
+      </nav>
     </div>
   </header>
-  <div>
-    <section class="container">
-      <h1>
-        Tela de Emissão de Relatórios
-      </h1>
-      <div class="container-item">
-        <p>Filtros:</p>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-          <label class="form-check-label" for="inlineCheckbox1">Cidades</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-          <label class="form-check-label" for="inlineCheckbox2">Estados</label>
-        </div>
-      </div>
-    </section>
+  <div class="container">
+    <h1>
+      Área do Cliente
+    </h1>
+    <div class="container-item2">
+      <label for="Telefone" class="form-label">Digite seu número de celular</label>
+      <input class="form-control" type="phone" placeholder="(DDD) 0 0000 0000" style="text-align: center;"
+        aria-label="readonly input example" readonly>
+      <button type="button" class="btn btn-link">Enviar</button>
+    </div>
+
   </div>
 
   <!--JS -->

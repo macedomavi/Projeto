@@ -36,12 +36,21 @@
       <div class="container-item">
         <p>Filtros:</p>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+          <input class="form-check-input" type="checkbox" id="flexCheckChecked" value="option1" checked>
           <label class="form-check-label" for="inlineCheckbox1">Cidades</label>
         </div>
         <div class="form-check form-check-inline">
           <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
           <label class="form-check-label" for="inlineCheckbox2">Estados</label>
+        </div>
+        <div class="bloco1">
+          <label for="exampleDataList" class="form-label">Selecione a cidade</label>
+          <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Escolha">
+          <datalist id="datalistOptions">
+            <option value="São João do Rio do Peixe">
+            <option value="Cajazeiras">
+            <option value="Souza">
+          </datalist>
         </div>
       </div>
     </section>

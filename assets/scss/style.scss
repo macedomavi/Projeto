@@ -3,3 +3,115 @@
 
 //Framework
 @import './bootstrap.scss';
+
+
+
+#sidebar {
+  width: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background:#c4c4c4 ;
+  color: black;
+}
+
+.sidebar-header{
+  text-align: center;
+  height: 78px;
+  font-size: 16px;
+  display: block;
+  border: 3px;
+  border-bottom-style: solid;
+  margin-bottom: 4px;
+}
+
+.sidebar-header h4{
+  padding-top: 28px;
+}
+
+#sidebar ul.components {
+  color: black;
+}
+
+#sidebar ul li a {
+  padding: 1em;
+  font-size: 16px;
+  display: block;
+  text-decoration: none;
+  color: #000000;
+}
+
+#sidebar ul li a:hover {
+  background-color: darken($color: #c4c4c4, $amount: 20%);
+  width: 100%;
+}
+
+.active{
+  background-color: darken($color: #c4c4c4, $amount: 20%);
+  width: 100%;
+}
+
+.container{
+  display: block;
+  margin-left: 300px;
+  padding: 2em;
+  height: 100vh;
+  width: 100%;
+  background-color: #E5E5E5;
+}
+
+.container h1 {
+  text-align: left;
+  font-size: 40px;
+  padding-left: 1em;
+}
+
+.container-item {
+  text-align: left baseline;
+  padding: 2em;
+}
+
+.container-item2 {
+  display: relative;
+  padding: 2em;
+  align-self: center;
+  margin-left: 10em;
+}
+
+.codigo {
+  padding-top: 2em;
+  align-items: center;
+}
+
+.codigo label{
+  margin-left: 1em;
+}
+
+.form-check-label {
+  margin: 2px;
+}
+
+.form-check{
+  margin-left: 10px;
+}
+
+.btn{
+  text-decoration: none;
+} 
+
+.btn-link {
+  color: #000000;
+  text-decoration: underline;
+  margin-top: 5px;
+  margin-left: 4em;
+}
+
+.form-control{
+  width: 200px;
+}
+
+.bloco1{
+  display: block;
+  padding-top: 2em;
+}

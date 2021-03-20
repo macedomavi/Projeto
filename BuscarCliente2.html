@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscar Cliente</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <!--Menu Lateral-->
+  <header>
+    <div class="wrapper">
+      <nav id="sidebar">
+        <div class="sidebar-header">
+          <h4>SISTEMA DE CADASTRO</h4>
+        </div>
+        <ul class="list-unstyled components">
+          <li>
+            <a href="./index.html">Emitir Relatórios</a>
+          </li>
+          <li class="active">
+            <a href="./BuscarCliente1.html">Pesquisar Cliente</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <h1>
+      Área do Cliente
+    </h1>
+    <div class="container-item2">
+      <div>
+        <label for="Telefone" class="form-label">Digite seu número de celular</label>
+        <input class="form-control" type="phone" placeholder="(DDD) 0 0000 0000" style="text-align: center;"
+          aria-label="readonly input example" readonly>
+      </div>
+      <div class="codigo">
+        <label for="Código" class="form-label" style="text-align: center;">Digite o código recebido</label>
+        <input class="form-control" type="number" placeholder="XXXXXX" style="text-align: center;"
+          aria-label="readonly input example" readonly>
+        <button type="button" class="btn btn-link">Enviar</button>
+      </div>
+    </div>
+  </div>
+
+  <!--JS -->
+  <script src="./assets/Js/bootstrap.js"></script>
+  <script src="./assets/Js/jquery.js"></script>
+  <script src="./assets/Js/popper.js"></script>
+</body>
+
+</html>
